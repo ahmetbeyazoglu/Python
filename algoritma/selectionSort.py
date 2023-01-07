@@ -10,6 +10,6 @@ for i in range(len(dizi)):
             min = j
     dizi[i], dizi[min] = dizi[min], dizi[i]
 
-print("Sıralanmış dizi: ")
+print("Sorted sequence:")
 for i in range(len(dizi)):
     print(dizi[i])
